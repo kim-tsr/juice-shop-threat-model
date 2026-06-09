@@ -49,11 +49,11 @@
           {
             "position": {
               "x": 702,
-              "y": 284
+              "y": 274.0000000000001
             },
             "size": {
               "width": 640,
-              "height": 180
+              "height": 210
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -68,19 +68,18 @@
               "crossingFlows": [],
               "containedElements": [
                 "d66aa1f5-f50c-4263-85b5-2167b2eabe28",
-                "d264f49c-0c86-469e-90ab-5599c7e81514",
                 "38f2c717-9e3c-43e2-8f1a-5066a64d887c"
               ]
             }
           },
           {
             "position": {
-              "x": 1127,
-              "y": 144.00000000000068
+              "x": 1115,
+              "y": 105
             },
             "size": {
-              "width": 150,
-              "height": 190
+              "width": 170,
+              "height": 220
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -100,12 +99,12 @@
           },
           {
             "position": {
-              "x": 1127,
+              "x": 1117,
               "y": 404
             },
             "size": {
-              "width": 150,
-              "height": 210
+              "width": 160,
+              "height": 230
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -120,6 +119,31 @@
               "crossingFlows": [],
               "containedElements": [
                 "bab52412-2440-4328-9b71-30602e37bf5f"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 1311,
+              "y": 300.00000000000006
+            },
+            "size": {
+              "width": 220,
+              "height": 140
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "f639f761-2555-4d4a-8255-c1d21be87fbb",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "eaf49999-7243-40b5-a8c1-c17014d36e82"
               ]
             }
           },
@@ -362,12 +386,12 @@
           },
           {
             "position": {
-              "x": 1120,
-              "y": 310
+              "x": 1100,
+              "y": 285
             },
             "size": {
-              "width": 160,
-              "height": 130
+              "width": 300,
+              "height": 170
             },
             "attrs": {
               "text": {
@@ -1010,6 +1034,54 @@
             "data": {
               "type": "tm.Text",
               "name": "Frontend vers API",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1144,
+              "y": 94
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "API vers DB "
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "7f09a0b0-cbae-44f8-bab1-45132f1a806c",
+            "zIndex": 10,
+            "data": {
+              "type": "tm.Text",
+              "name": "API vers DB ",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1144,
+              "y": 580
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "API vers File system"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "73878738-adbb-4d6e-8023-14af4f544650",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Text",
+              "name": "API vers File system",
               "hasOpenThreats": false
             }
           }
