@@ -1442,7 +1442,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Requête utilisateur",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1456,18 +1456,23 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Requête utilisateur"
             ],
             "id": "9c3a90cd-3f36-4972-a20d-dfcecfe9a8a0",
             "source": {
               "x": 470,
-              "y": 390
+              "y": 410
             },
             "target": {
               "cell": "d66aa1f5-f50c-4263-85b5-2167b2eabe28",
               "port": "a9ffa8ca-f4c7-4291-9bc3-9c5a79b38c9a"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 590,
+                "y": 410
+              }
+            ]
           }
         ],
         "description": "Flow utilisateurs"
