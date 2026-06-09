@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 357,
-              "y": 145
+              "x": 355,
+              "y": 345
             },
             "size": {
               "width": 128,
@@ -28,7 +28,7 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "128461a7-f2b1-4cc1-98d3-ec5250c8d334",
+            "id": "e691b088-ffa6-4c75-a7b1-c89d257ffa62",
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
