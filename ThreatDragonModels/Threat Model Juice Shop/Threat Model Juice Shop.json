@@ -18,139 +18,38 @@
         "version": "2.6.2",
         "cells": [
           {
-            "position": {
-              "x": 344.9999999999998,
-              "y": 144
-            },
-            "size": {
-              "width": 700,
-              "height": 410
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
             "zIndex": -1,
-            "id": "e691b088-ffa6-4c75-a7b1-c89d257ffa62",
+            "connector": "smooth",
             "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "type": "tm.Boundary",
+              "name": "Requete API",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [],
-              "containedElements": [
-                "69826d6a-e50a-4d18-b8ed-842c1c121b46",
-                "d66aa1f5-f50c-4263-85b5-2167b2eabe28",
-                "3eba7233-8f12-4ad9-8692-e07c4dccae34",
-                "46e349f6-6db6-4554-9b5e-a8003217be0a",
-                "38f2c717-9e3c-43e2-8f1a-5066a64d887c"
-              ]
-            }
+              "containedElements": []
+            },
+            "labels": [
+              "Requete API"
+            ],
+            "id": "3f42f4d0-c5df-408f-ba96-4540b0426bcb",
+            "source": {
+              "x": 910,
+              "y": 235
+            },
+            "target": {
+              "x": 910,
+              "y": 570
+            },
+            "vertices": []
           },
           {
             "position": {
-              "x": 702,
-              "y": 274.0000000000001
-            },
-            "size": {
-              "width": 640,
-              "height": 210
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "79b578f0-1580-4930-9fa9-d521a4f2f242",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": [
-                "d66aa1f5-f50c-4263-85b5-2167b2eabe28",
-                "38f2c717-9e3c-43e2-8f1a-5066a64d887c"
-              ]
-            }
-          },
-          {
-            "position": {
-              "x": 1115,
-              "y": 105
-            },
-            "size": {
-              "width": 170,
-              "height": 220
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "d8f36e4b-ca82-457a-b6fb-b83f4178fc6a",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": [
-                "24043a0a-9334-4438-8198-50e87b9bad38"
-              ]
-            }
-          },
-          {
-            "position": {
-              "x": 1117,
-              "y": 404
-            },
-            "size": {
-              "width": 160,
-              "height": 230
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "f2f59cd4-1faa-4397-ae71-8b89f26daf56",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": [
-                "bab52412-2440-4328-9b71-30602e37bf5f"
-              ]
-            }
-          },
-          {
-            "position": {
-              "x": 1311,
-              "y": 300.00000000000006
-            },
-            "size": {
-              "width": 220,
-              "height": 140
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "f639f761-2555-4d4a-8255-c1d21be87fbb",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": [
-                "eaf49999-7243-40b5-a8c1-c17014d36e82"
-              ]
-            }
-          },
-          {
-            "position": {
-              "x": 420,
-              "y": 230
+              "x": 300,
+              "y": 360
             },
             "size": {
               "width": 170,
@@ -266,8 +165,8 @@
           },
           {
             "position": {
-              "x": 770,
-              "y": 300
+              "x": 680,
+              "y": 335
             },
             "size": {
               "width": 170,
@@ -386,8 +285,8 @@
           },
           {
             "position": {
-              "x": 1100,
-              "y": 285
+              "x": 927,
+              "y": 320
             },
             "size": {
               "width": 300,
@@ -506,8 +405,8 @@
           },
           {
             "position": {
-              "x": 1140,
-              "y": 170
+              "x": 1256.5,
+              "y": 260
             },
             "size": {
               "width": 120,
@@ -630,8 +529,8 @@
           },
           {
             "position": {
-              "x": 1140,
-              "y": 520
+              "x": 1256.5,
+              "y": 490
             },
             "size": {
               "width": 120,
@@ -754,8 +653,8 @@
           },
           {
             "position": {
-              "x": 1380,
-              "y": 325
+              "x": 1270,
+              "y": 15
             },
             "size": {
               "width": 130,
@@ -874,8 +773,8 @@
           },
           {
             "position": {
-              "x": 448.75,
-              "y": 450
+              "x": 518.75,
+              "y": 15
             },
             "size": {
               "width": 112.5,
@@ -991,8 +890,8 @@
           },
           {
             "position": {
-              "x": 639,
-              "y": 144
+              "x": 708.75,
+              "y": 220
             },
             "size": {
               "width": 112.5,
@@ -1010,30 +909,6 @@
             "data": {
               "type": "tm.Text",
               "name": "DMZ",
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 922,
-              "y": 284
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Frontend vers API"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "id": "38f2c717-9e3c-43e2-8f1a-5066a64d887c",
-            "zIndex": 9,
-            "data": {
-              "type": "tm.Text",
-              "name": "Frontend vers API",
               "hasOpenThreats": false
             }
           },
@@ -1063,8 +938,8 @@
           },
           {
             "position": {
-              "x": 1144,
-              "y": 580
+              "x": 1054,
+              "y": 630
             },
             "size": {
               "width": 112.5,
@@ -1083,6 +958,34 @@
               "type": "tm.Text",
               "name": "API vers File system",
               "hasOpenThreats": false
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 12,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Requete https",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Requete https"
+            ],
+            "id": "ff59cbdf-ce1a-4bef-bcfd-8fd27c0880d4",
+            "source": {
+              "x": 610,
+              "y": 240
+            },
+            "target": {
+              "x": 610,
+              "y": 560
             }
           }
         ],
