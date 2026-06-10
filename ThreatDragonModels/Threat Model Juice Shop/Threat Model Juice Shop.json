@@ -287,6 +287,11 @@
                 "button-remove",
                 "vertices",
                 "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
                 "target-arrowhead"
               ],
               "name": null
@@ -1184,8 +1189,8 @@
                 "text": "OAuth provider"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1282,12 +1287,26 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": [],
+              "threats": [
+                {
+                  "id": "5e24c36c-bda5-4b3d-a97d-ccc1e5b2db71",
+                  "title": "Log de connexion",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Repudiation",
+                  "description": "L'authorité d'authentification ne log pas les tentatives",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                }
+              ],
               "threatFrequency": {
                 "spoofing": 1,
-                "repudiation": 0
+                "repudiation": 1
               }
             }
           },
@@ -1534,11 +1553,24 @@
                   "new": false,
                   "number": 18,
                   "score": ""
+                },
+                {
+                  "id": "d5b8c091-e9a1-4abd-ac72-ef56005f28bf",
+                  "title": "Redirection du flux",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "La callback est modifié, l'authentification est redirigé",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
                 }
               ],
               "trustBoundaryIds": [],
               "threatFrequency": {
-                "tampering": 0,
+                "tampering": 2,
                 "informationDisclosure": 0,
                 "denialOfService": 1
               }
@@ -1556,6 +1588,14 @@
               "port": "7d7a9a25-d68d-4f80-911b-886817a28dfc"
             },
             "vertices": [
+              {
+                "x": 910,
+                "y": 110
+              },
+              {
+                "x": 1000,
+                "y": 130
+              },
               {
                 "x": 1030,
                 "y": 150
@@ -1757,6 +1797,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 18
+    "threatTop": 20
   }
 }
