@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": 567,
+              "x": 570,
               "y": 25
             },
             "size": {
@@ -98,6 +98,11 @@
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
@@ -453,8 +458,8 @@
                 "text": "Frontend Angular"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -551,42 +556,15 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": [
-                {
-                  "id": "b18d4919-a5f2-47a3-b210-e493e754c653",
-                  "title": "Usurpation d'identité",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Spoofing",
-                  "description": "SQLi ou brute force",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 2,
-                  "score": ""
-                },
-                {
-                  "id": "b5ebdd3c-351f-4b13-ad17-03e3fddbd731",
-                  "title": "Falsification du JWT",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Tampering",
-                  "description": "Fake JWT impersonate",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 10,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "spoofing": 3,
-                "tampering": 1,
+                "spoofing": 2,
+                "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
@@ -763,10 +741,23 @@
                   "new": false,
                   "number": 13,
                   "score": ""
+                },
+                {
+                  "id": "788710c8-41fd-45e0-965e-64561535bfab",
+                  "title": "Usurpation d'identité",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Falsification de JWT",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "tampering": 0,
                 "repudiation": 1,
                 "informationDisclosure": 1,
@@ -919,13 +910,6 @@
                 "informationDisclosure": 1,
                 "denialOfService": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1510,7 +1494,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -1531,13 +1516,32 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
+              "threats": [
+                {
+                  "id": "bd555944-2c6b-4c8f-bec9-76f4f032bcbe",
+                  "title": "Perte de contact avec l'autorité d'authentification ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "Impossible de se connecter via un tier de confiance",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1
+              }
             },
             "labels": [
               "Requette d'authentification"
@@ -3494,6 +3498,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 14
+    "threatTop": 18
   }
 }
