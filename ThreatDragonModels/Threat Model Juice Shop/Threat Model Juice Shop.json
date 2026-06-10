@@ -774,6 +774,15 @@
                 "denialOfService": 4,
                 "elevationOfPrivilege": 1
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1535,7 +1544,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Requette d'authentification",
+              "name": "Requête d'authentification",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1581,7 +1590,7 @@
               }
             },
             "labels": [
-              "Requette d'authentification"
+              "Requête d'authentification"
             ],
             "id": "8eee15c2-166c-456d-a96f-3454ec12af7e",
             "source": {
