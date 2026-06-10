@@ -1675,7 +1675,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Requette d'envoie de mail",
+              "name": "Requête d'envoie de mail",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1689,7 +1689,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Requette d'envoie de mail"
+              "Requête d'envoie de mail"
             ],
             "id": "b68188d8-e422-49ed-88b5-68de75982ae1",
             "source": {
@@ -1709,7 +1709,17 @@
                 "x": 1040,
                 "y": 650
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
