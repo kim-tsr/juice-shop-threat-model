@@ -292,6 +292,11 @@
                 "button-remove",
                 "vertices",
                 "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
                 "target-arrowhead"
               ],
               "name": null
@@ -712,7 +717,7 @@
                   "id": "c41f910d-d957-4d2b-9937-e2eae0c5ebab",
                   "title": "Enumeration des comptes",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Information disclosure",
                   "description": "énumération de comptes par messages d'erreur différenciés",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -725,7 +730,7 @@
                   "id": "3d1ac188-8fb4-4d93-be5b-a2f89d67f554",
                   "title": "verrouillage de compte",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "High",
                   "type": "Denial of service",
                   "description": "flood",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -764,9 +769,9 @@
               "threatFrequency": {
                 "spoofing": 2,
                 "tampering": 0,
-                "repudiation": 1,
-                "informationDisclosure": 1,
-                "denialOfService": 1,
+                "repudiation": 2,
+                "informationDisclosure": 4,
+                "denialOfService": 4,
                 "elevationOfPrivilege": 1
               }
             }
@@ -1306,7 +1311,7 @@
               ],
               "threatFrequency": {
                 "spoofing": 1,
-                "repudiation": 1
+                "repudiation": 2
               }
             }
           },
@@ -1570,9 +1575,9 @@
               ],
               "trustBoundaryIds": [],
               "threatFrequency": {
-                "tampering": 2,
+                "tampering": 3,
                 "informationDisclosure": 0,
-                "denialOfService": 1
+                "denialOfService": 2
               }
             },
             "labels": [
