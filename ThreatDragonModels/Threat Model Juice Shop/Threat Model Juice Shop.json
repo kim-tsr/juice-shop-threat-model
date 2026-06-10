@@ -774,15 +774,6 @@
                 "denialOfService": 4,
                 "elevationOfPrivilege": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1439,7 +1430,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Recupere un fichier",
+              "name": "Récupère un fichier",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1453,7 +1444,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Recupere un fichier"
+              "Récupère un fichier"
             ],
             "id": "1222485f-6279-48a9-8e0b-9bb4c9531785",
             "source": {
@@ -1491,7 +1482,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Recupere de la donnée",
+              "name": "Récupère de la donnée",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1505,7 +1496,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Recupere de la donnée"
+              "Récupère de la donnée"
             ],
             "id": "67259bea-70d0-40b1-8e13-fe188f20a110",
             "source": {
